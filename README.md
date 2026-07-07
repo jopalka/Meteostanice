@@ -36,3 +36,4 @@ My first major project
 ### Author
 ##### Jan Opálka
 ###### GitHub: @jopalka
+![System Architecture](MeteostaniceSystemArchitecture%20%281%29.jpg)
