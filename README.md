@@ -23,7 +23,7 @@ My first major project
 ##### Admin mode
 #### ----------------------------------
 #### Part 3: 3D case for weather-station
-##### *That is planned for "Meteostanice 2.0"* 😅.
+##### *I am still working on it* 😅.
 #### -------------------------------------------------------------------
 ###  Hardware
 ##### Arduino
