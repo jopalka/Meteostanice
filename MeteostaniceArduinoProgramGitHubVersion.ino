@@ -3,7 +3,7 @@ Project: Meteostanice
 Version: BETA
 Author: Jan Opalka(jopalka)
 Description: showing real-time weather data(temperature, humidity, pressure, altitude(calculated)) on an I2C LCD display and sending them to my own Kodular app.
-Note: Because I am from Czechia, some prompts for LCD display is in Czech Language. All prompts are translated.
+Note: Because I am from Czechia, some prompts for LCD display are in Czech Language. All prompts are translated.
 */
 
 //Initializing variables
@@ -82,7 +82,7 @@ void setup() {
 //I love loading screens, so I made my own one. 
 void senload() {
   lcd.setCursor(0, 1);
-  lcd.print("Nacitani sensoru...");//Prompt in Czech Language. Translation to English: "Sensor Loading..."
+  lcd.print("Nacitani sensoru...");//Prompt is in Czech Language. Translation to English: "Sensor Loading..."
   lcd.setCursor(8, 2);
   lcd.print("0%");
   delay(300);
@@ -222,7 +222,7 @@ void loop() {
       lcd.clear();
     }
     lcd.setCursor(0, 0);
-    lcd.print("Dnes je:");//Prompt in Czech Language. Translation to English: "Today is:"
+    lcd.print("Dnes je:");//Prompt is in Czech Language. Translation to English: "Today is:"
     lcd.setCursor(0, 1);
     DateStr = datumCas.day;
     DateStr += ".";
@@ -257,7 +257,7 @@ void loop() {
       lcd.clear();
     }
     lcd.setCursor(0, 0);
-    lcd.print("Teplota: ");//Prompt in Czech Language. Translation to English: "Temperature: "
+    lcd.print("Teplota: ");//Prompt is in Czech Language. Translation to English: "Temperature: "
     lcd.setCursor(0, 1);
     lcd.print(temperature);
     lcd.print(" ");
@@ -271,7 +271,7 @@ void loop() {
       lcd.clear();
     }
     lcd.setCursor(0, 0);
-    lcd.print("Vlhkost: ");//Prompt in Czech Language. Translation to English: "Humidity: "
+    lcd.print("Vlhkost: ");//Prompt is in Czech Language. Translation to English: "Humidity: "
     lcd.setCursor(0, 1);
     lcd.print(humidity);
     lcd.print(" %    ");
@@ -283,7 +283,7 @@ void loop() {
       lcd.clear();
     }
     lcd.setCursor(0, 0);
-    lcd.print("Tlak: ");//Prompt in Czech Language. Translation to English: "Pressure: "
+    lcd.print("Tlak: ");//Prompt is in Czech Language. Translation to English: "Pressure: "
     lcd.setCursor(0, 1);
     lcd.print(pressure);
     lcd.print(" hPa");
@@ -295,7 +295,7 @@ void loop() {
       lcd.clear();
     }
     lcd.setCursor(0, 0);
-    lcd.print("Nadmorska vyska:");//Prompt in Czech Language. Translation to English: "Altitude: "
+    lcd.print("Nadmorska vyska:");//Prompt is in Czech Language. Translation to English: "Altitude: "
     lcd.setCursor(0, 1);
     lcd.print(altitude);
     lcd.print(" m.n.m.");
@@ -304,9 +304,9 @@ void loop() {
 
   if (buttonstate == 6) {
     lcd.setCursor(3, 1);
-    lcd.print("Opravdu chcete");//Prompt in Czech Language. Translation to English: "Do you really want to"
+    lcd.print("Opravdu chcete");//Prompt is in Czech Language. Translation to English: "Do you really want to"
     lcd.setCursor(4, 2);
-    lcd.print("zmenit cas?");//Prompt in Czech Language. Translation to English: "change the time?"
+    lcd.print("zmenit cas?");//Prompt is in Czech Language. Translation to English: "change the time?"
     delay(50);
   }
 
@@ -344,7 +344,7 @@ void loop() {
     if (timestate == 8) {
       lcd.clear();
       lcd.setCursor(2, 1);
-      lcd.print("Ukladani casu...");//Prompt in Czech Language. Translation to English: "Saving time..."
+      lcd.print("Ukladani casu...");//Prompt is in Czech Language. Translation to English: "Saving time..."
       rtc.setDateTime(year, month, day, hour, minute, second);
       buttonstate = 0;
       timestate = 1;
@@ -429,7 +429,7 @@ void loop() {
     command.trim();
 
 
-    if (command == "Lze posilat informace") {
+    if (command == "Lze posilat informace") {//Prompt is in Czech Language. Translation to English: "It is possible to send data."
 
 
       String dataString = "";
