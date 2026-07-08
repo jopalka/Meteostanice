@@ -49,7 +49,7 @@ My first major project
 ##### *Afterpasswordentering - my name for screen, which is coming AFTER PASSWORD ENTERING in Main Screen*
 ![Successful Connection](App-APE-SuccessfullyConnected.png)
 ##### *Displaying notifier with message of successful connection to HC-05.*
-![Viewer](App-Viewer-TestGH.png)
+![Viewer - Tester GitHub profile](App-Viewer-TestGH.jpg)
 ##### *Displaying testing profile in Viewer - my screen for displaying selected user*
 ![User Manager](App-UserManager-main.png)
 ##### *Screenshot of UserManager - screen, which is supposed for adding new users*
