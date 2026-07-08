@@ -2,8 +2,8 @@
 My first major project
 
 ### Description
-**"Meteostanice"** is my first major project. It measures real-time weather data and sends it to my own Kodular app. It is based on Arduino, a BME280 sensor, a Bluetooth module, an RTC module for showing time, and an I2C LCD display.
-#### -------------------------------------------------------------------
+#### **"Meteostanice"** is my first major project. It measures real-time weather data and sends it to my own Kodular app. It is based on Arduino, a BME280 sensor, a Bluetooth module, an RTC module for showing time, and an I2C LCD display.
+---
 ### Features
 #### Part 1: Arduino
 ##### Measuring temperature
@@ -24,7 +24,7 @@ My first major project
 #### ----------------------------------
 #### Part 3: 3D case for weather-station
 ##### *Still in progress*.
-#### -------------------------------------------------------------------
+---
 ###  Hardware
 ##### Arduino
 ##### Bosch BME280 sensor
@@ -32,7 +32,7 @@ My first major project
 ##### BT HC-05 module
 ##### RTC module
 ##### Buttons for controlling the LCD display
-#### -------------------------------------------------------------------
+---
 ### Photos
 #### Hardware Photos
 ![Main Hardware Setup](Hardware.jpg)
@@ -41,7 +41,7 @@ My first major project
 ##### *LCD display - main screen(showing real-time)*
 ![Chantim Mode](Hardware-Chantim.jpg)
 ##### *chantim(CHANging TIMe) in progress)*
-#### ----------------------------------
+---
 #### App Screenshots
 ![Main screen](App-MainScreen.jpg)
 ##### *Main screen*
@@ -53,7 +53,7 @@ My first major project
 ##### *Displaying testing profile in Viewer - my screen for displaying selected user*
 ![User Manager](App-UserManager-main.png)
 ##### *Screenshot of UserManager - screen, which is supposed for adding new users*
-#### -------------------------------------------------------------------
+---
 ### Author
 ##### Jan Opálka
 ###### GitHub: @jopalka
