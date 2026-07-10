@@ -2,7 +2,7 @@
 My first major project
 
 <p align="center">
-  <img src="Photos/MeteostaniceSocialPreview.jpg" alt="Meteostanice Banner" width="100%">
+  <img src="Photos/MeteostaniceNewSocialPreview.jpg" alt="Meteostanice Banner" width="100%">
 </p>
 
 ### Description
@@ -11,17 +11,23 @@ My first major project
 ### Technologies
 ![Arduino Uno](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 
+*Hardware control, weather station logic, and reading values from the sensor.*
 
 ![Kodular](https://img.shields.io/badge/-Kodular-5B17B5?style=for-the-badge&logo=Kodular&logoColor=white)
 
+*Platform for programming my app.*
 
 ![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=Supabase&logoColor=white)
 
+*Database for uploading users' info(username, hashed password by SHA-256, email for communication and sending new versions of app, and full name).*
 
-![Bluetooth HC-05 module](https://img.shields.io/badge/-Bluetooth-0082FC?style=for-the-badge&logo=Bluetooth&logoColor=white)
+![Bluetooth HC-05 module](https://img.shields.io/badge/-Bluetooth%20HC--05-0082FC?style=for-the-badge&logo=Bluetooth&logoColor=white)
 
+*Smart and easy way to send data from Arduino to Kodular app and back.*
 
 ![Bosch BME280](https://img.shields.io/badge/-Bosch%20BME280-EA0016?style=for-the-badge&logo=Bosch&logoColor=white)
+
+*Great sensor which measures temperature, humidity and pressure.*
 
 ### Features
 #### Part 1: Arduino
@@ -60,6 +66,7 @@ My first major project
 ##### *LCD display - main screen(showing real-time)*
 ![Chantim Mode](Photos/HardwarePhotos/Hardware-Chantim.jpg)
 ##### *chantim(CHANging TIMe) in progress)*
+#### *I am sorry for having troubles with Hardware photos. I will fix it as soon as it possible.*
 ---
 #### App Screenshots
 ![Main screen](Photos/AppScreenshots/App-MainScreen.jpg)
@@ -72,6 +79,9 @@ My first major project
 ##### *Displaying testing profile in Viewer - my screen for displaying selected user*
 ![User Manager](Photos/AppScreenshots/App-UserManager-main.png)
 ##### *Screenshot of UserManager - screen, which is supposed for adding new users*
+---
+#### Future ideas for version 2.0:
+* Displaying history of weather data in charts
 ---
 ### Author
 ##### Jan Opálka
