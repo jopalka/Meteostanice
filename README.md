@@ -8,6 +8,21 @@ My first major project
 ### Description
 #### **"Meteostanice"** is my first major project. It measures real-time weather data and sends it to my own Kodular app. It is based on Arduino, a BME280 sensor, a Bluetooth module, an RTC module for showing time, and an I2C LCD display.
 ---
+### Technologies
+![Arduino Uno](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+
+
+![Kodular](https://img.shields.io/badge/-Kodular-5B17B5?style=for-the-badge&logo=Kodular&logoColor=white)
+
+
+![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=Supabase&logoColor=white)
+
+
+![Bluetooth HC-05 module](https://img.shields.io/badge/-Bluetooth-0082FC?style=for-the-badge&logo=Bluetooth&logoColor=white)
+
+
+![Bosch BME280](https://img.shields.io/badge/-Bosch%20BME280-EA0016?style=for-the-badge&logo=Bosch&logoColor=white)
+
 ### Features
 #### Part 1: Arduino
 * Measuring temperature
