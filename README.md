@@ -81,9 +81,9 @@ My first major project
 ##### *Screenshot of UserManager - screen, which is supposed for adding new users*
 ---
 #### Future ideas for version 2.0:
-[ ] Displaying history of weather data in charts
+- [ ] Displaying history of weather data in charts
 
-[ ] Replacing Arduino Uno by Arduino Nano
+- [ ] Replacing Arduino Uno by Arduino Nano
 ---
 ### Author
 ##### Jan Opálka
