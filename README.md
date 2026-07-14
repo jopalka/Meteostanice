@@ -68,13 +68,11 @@ My first major project
   <summary><b>Hardware Photos<b></summary>
   
   <p align="center">
-    <img src="Photos/HardwarePhotos/Hardware.jpg" alt="Hardware Setup" width="35%" />
-    <img src="Photos/HardwarePhotos/Hardware-LCD-Main.jpg" alt="LCD Display Detail" width="35%" />
-    <img src="Photos/HardwarePhotos/Hardware-Chantim.jpg" alt="Chantim Mode" width="35%" />
+    <img src="Photos/Hardware.jpg" alt="Hardware Setup" width="35%" />
+    <img src="Photos/Hardware-LCD-Main.jpg" alt="LCD Display Detail" width="35%" />
+    <img src="Photos/Hardware-Chantim.jpg" alt="Chantim Mode" width="35%" />
   </p>
 </details>
-
-#### *I am sorry for having troubles with Hardware photos. I will fix it as soon as it possible.*
 
 <details>
   <summary><b>App Screenshots<b></summary>
