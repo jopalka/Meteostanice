@@ -13,6 +13,10 @@ My first major project
 
 *Hardware control, weather station logic, and reading values from the sensor.*
 
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white)
+
+*Programming language for Arduino.*
+
 ![Kodular](https://img.shields.io/badge/-Kodular-5B17B5?style=for-the-badge&logo=Kodular&logoColor=white)
 
 *Platform for programming my app.*
