@@ -63,31 +63,38 @@ My first major project
 * Buttons for controlling the LCD display
 ---
 ### Photos
-#### Hardware Photos
-![Main Hardware Setup](Photos/HardwarePhotos/Hardware.jpg)
-##### *Main hardware setup(I will add 3D case for it...)*
-![LCD Display Detail](Photos/HardwarePhotos/Hardware-LCD-Main.jpg)
-##### *LCD display - main screen(showing real-time)*
-![Chantim Mode](Photos/HardwarePhotos/Hardware-Chantim.jpg)
-##### *chantim(CHANging TIMe) in progress)*
+
+<details>
+  <summary><b>Hardware Photos<b></summary>
+  
+  <p align="center">
+    <img src="Photos/HardwarePhotos/Hardware.jpg" alt="Hardware Setup" width="35%" />
+    <img src="Photos/HardwarePhotos/Hardware-LCD-Main.jpg" alt="LCD Display Detail" width="35%" />
+    <img src="Photos/HardwarePhotos/Hardware-Chantim.jpg" alt="Chantim Mode" width="35%" />
+  </p>
+</details>
+
 #### *I am sorry for having troubles with Hardware photos. I will fix it as soon as it possible.*
+
+<details>
+  <summary><b>App Screenshots<b></summary>
+  <p align="center">
+    <img src="Photos/AppScreenshots/App-MainScreen.jpg" alt="Main screen" width="35%" />
+    <img src="Photos/AppScreenshots/App-Afterpasswordentering-main.png" alt="Afterpasswordentering" width="35%" />
+    <img src="Photos/AppScreenshots/App-APE-SuccessfullyConnected.png" alt="Successful Connection" width="35%" />
+    <img src="Photos/AppScreenshots/App-Viewer-TestGH-New.jpg" alt="Viewer - Tester GitHub profile" width="35%" />
+    <img src="Photos/AppScreenshots/App-UserManager-main.png" alt="User Manager" width="35%" />
+  </p>
+</details>
+
 ---
-#### App Screenshots
-![Main screen](Photos/AppScreenshots/App-MainScreen.jpg)
-##### *Main screen*
-![Afterpasswordentering](Photos/AppScreenshots/App-Afterpasswordentering-main.png)
-##### *Afterpasswordentering - my name for screen, which is coming AFTER PASSWORD ENTERING in Main Screen*
-![Successful Connection](Photos/AppScreenshots/App-APE-SuccessfullyConnected.png)
-##### *Displaying notifier with message of successful connection to HC-05.*
-![Viewer - Tester GitHub profile](Photos/AppScreenshots/App-Viewer-TestGH-New.jpg)
-##### *Displaying testing profile in Viewer - my screen for displaying selected user*
-![User Manager](Photos/AppScreenshots/App-UserManager-main.png)
-##### *Screenshot of UserManager - screen, which is supposed for adding new users*
----
-#### Future ideas for version 2.0:
+### Future ideas for version 2.0:
 - [ ] Displaying history of weather data in charts
 
 - [ ] Replacing Arduino Uno by Arduino Nano
+---
+## License
+#### MIT License
 ---
 ### Author
 ##### Jan Opálka
