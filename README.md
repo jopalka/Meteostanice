@@ -32,7 +32,7 @@ My first major project
 ![Bosch BME280](https://img.shields.io/badge/-Bosch%20BME280-EA0016?style=for-the-badge&logo=Bosch&logoColor=white)
 
 *Great sensor which measures temperature, humidity and pressure.*
-
+---
 ### Features
 #### Part 1: Arduino
 * Measuring temperature
